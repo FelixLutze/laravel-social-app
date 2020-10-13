@@ -7,6 +7,13 @@
       <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" packagePrefix="Tests\" />
       <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/database/seeders" isTestSource="false" packagePrefix="Database\Seeders\" />
+      <excludeFolder url="file://$MODULE_DIR$/.idea/dataSources" />
+      <excludeFolder url="file://$MODULE_DIR$/storage/app/public/uploads" />
+      <excludeFolder url="file://$MODULE_DIR$/storage/framework/cache/data/22" />
+      <excludeFolder url="file://$MODULE_DIR$/storage/framework/cache/data/84" />
+      <excludeFolder url="file://$MODULE_DIR$/storage/framework/cache/data/89" />
+      <excludeFolder url="file://$MODULE_DIR$/storage/framework/cache/data/f2" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/asm89/stack-cors" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/brick/math" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/composer" />

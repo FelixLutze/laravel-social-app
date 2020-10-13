@@ -20,7 +20,7 @@
                            class="form-control @error('caption') is-invalid @enderror"
                            name="caption"
                            value="{{ old('caption') }}"
-
+                            required
                            autocomplete="caption"
                            autofocus>
 
@@ -41,7 +41,7 @@
                 </div>
 
                 <div class="row pt-4">
-                    <button class="btn btn-primary">Create Post</button>
+                    <button class="btn btn-primary">Create new Post</button>
                 </div>
 
             </div>
