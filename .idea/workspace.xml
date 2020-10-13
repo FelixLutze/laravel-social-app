@@ -10,24 +10,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a733edcd-38e0-4a31-909f-00a0dc74ec4c" name="Default Changelist" comment="Added: User authentication, Profile Layout, new Post creation">
-      <change afterPath="$PROJECT_DIR$/resources/views/posts/show.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/profiles/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/laravel-social-app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/laravel-social-app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="a733edcd-38e0-4a31-909f-00a0dc74ec4c" name="Default Changelist" comment="Added: Resizing posts after upload; Posts can now be viewed; Registered users can now added their profiles;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProfilesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProfilesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Post.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Profiles.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Profiles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/posts/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/create.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/profiles/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/profiles/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -235,7 +221,7 @@
       <workItem from="1602488687873" duration="18000" />
       <workItem from="1602488713957" duration="459000" />
       <workItem from="1602489183326" duration="4711000" />
-      <workItem from="1602613016844" duration="11927000" />
+      <workItem from="1602613016844" duration="13140000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1602360222668</created>
@@ -251,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602447428948</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added: Resizing posts after upload; Posts can now be viewed; Registered users can now added their profiles;">
+      <created>1602625232742</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1602625232742</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -272,7 +265,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Added: User authentication, Profile Layout, new Post creation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added: User authentication, Profile Layout, new Post creation" />
+    <MESSAGE value="Added: Resizing posts after upload; Posts can now be viewed; Registered users can now added their profiles;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added: Resizing posts after upload; Posts can now be viewed; Registered users can now added their profiles;" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2877" y="1127" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602361842522">
@@ -291,28 +285,32 @@
       <screen x="2560" y="0" width="1440" height="2560" />
     </state>
     <state x="3051" y="1425" width="447" height="520" key="FileChooserDialogImpl/0.708.2560.1413/2560.0.1440.2560@2560.0.1440.2560" timestamp="1602360027814" />
-    <state width="1874" height="146" key="GridCell.Tab.0.bottom" timestamp="1602622804789">
+    <state x="791" y="454" width="338" height="212" key="Github.ShareDialog" timestamp="1602625457195">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="146" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1602622804789" />
+    <state x="791" y="454" width="338" height="212" key="Github.ShareDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1602625457195" />
+    <state width="1874" height="146" key="GridCell.Tab.0.bottom" timestamp="1602625874438">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="146" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1602625874438" />
     <state width="2514" height="394" key="GridCell.Tab.0.bottom/0.708.2560.1413/2560.0.1440.2560@0.708.2560.1413" timestamp="1602448219501" />
     <state width="1394" height="507" key="GridCell.Tab.0.bottom/0.708.2560.1413/2560.0.1440.2560@2560.0.1440.2560" timestamp="1602368110445" />
-    <state width="1874" height="146" key="GridCell.Tab.0.center" timestamp="1602622804788">
+    <state width="1874" height="146" key="GridCell.Tab.0.center" timestamp="1602625874436">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="146" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1602622804788" />
+    <state width="1874" height="146" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1602625874436" />
     <state width="2514" height="394" key="GridCell.Tab.0.center/0.708.2560.1413/2560.0.1440.2560@0.708.2560.1413" timestamp="1602448219501" />
     <state width="1394" height="507" key="GridCell.Tab.0.center/0.708.2560.1413/2560.0.1440.2560@2560.0.1440.2560" timestamp="1602368110445" />
-    <state width="1874" height="146" key="GridCell.Tab.0.left" timestamp="1602622804788">
+    <state width="1874" height="146" key="GridCell.Tab.0.left" timestamp="1602625874434">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="146" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1602622804788" />
+    <state width="1874" height="146" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1602625874434" />
     <state width="2514" height="394" key="GridCell.Tab.0.left/0.708.2560.1413/2560.0.1440.2560@0.708.2560.1413" timestamp="1602448219501" />
     <state width="1394" height="507" key="GridCell.Tab.0.left/0.708.2560.1413/2560.0.1440.2560@2560.0.1440.2560" timestamp="1602368110445" />
-    <state width="1874" height="146" key="GridCell.Tab.0.right" timestamp="1602622804789">
+    <state width="1874" height="146" key="GridCell.Tab.0.right" timestamp="1602625874437">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="146" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1602622804789" />
+    <state width="1874" height="146" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1602625874437" />
     <state width="2514" height="394" key="GridCell.Tab.0.right/0.708.2560.1413/2560.0.1440.2560@0.708.2560.1413" timestamp="1602448219501" />
     <state width="1394" height="507" key="GridCell.Tab.0.right/0.708.2560.1413/2560.0.1440.2560@2560.0.1440.2560" timestamp="1602368110445" />
     <state width="2514" height="484" key="GridCell.Tab.1.bottom" timestamp="1602377881799">
@@ -382,10 +380,10 @@
     </state>
     <state x="708" y="8" width="672" height="505" key="run.anything.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1602622801522" />
     <state x="944" y="682" width="672" height="677" key="run.anything.popup/0.708.2560.1413/2560.0.1440.2560@0.708.2560.1413" timestamp="1602447782626" />
-    <state x="511" y="526" width="897" height="280" key="search.everywhere.popup" timestamp="1602623313255">
+    <state x="511" y="526" width="897" height="280" key="search.everywhere.popup" timestamp="1602625888431">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="511" y="526" width="897" height="280" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1602623313255" />
+    <state x="511" y="526" width="897" height="280" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1602625888431" />
     <state x="681" y="1377" width="1195" height="375" key="search.everywhere.popup/0.708.2560.1413/2560.0.1440.2560@0.708.2560.1413" timestamp="1602447596209" />
     <state x="2943" y="1212" width="672" height="678" key="search.everywhere.popup/0.708.2560.1413/2560.0.1440.2560@2560.0.1440.2560" timestamp="1602368064804" />
   </component>

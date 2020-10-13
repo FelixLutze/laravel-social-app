@@ -21,7 +21,7 @@
                 <div class="pt-4"><strong>{{$user->profile->title}}</strong></div>
                 <div>{{$user->profile->description}}</div>
                 @if($user->profile->url != null)
-                    <div><a href="http://{{$user->profile->url}}" target="_blank">{{$user->profile->url}}</a></div>
+                    <div><a href="{{$user->profile->url}}" target="_blank">{{$user->profile->url}}</a></div>
                 @endif
             </div>
         </div>
