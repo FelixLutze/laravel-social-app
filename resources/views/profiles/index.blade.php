@@ -9,7 +9,9 @@
             <div class="col-9 pl-5 pb-5">
                 <div class="d-flex justify-content-between align-items-baseline">
                     <h1>{{$user->username}}</h1>
-                    <a href="/p/create"><strong>Create new Post</strong></a>
+                    @can('update', $user->profile)
+                        <a href="/p/create"><strong>Create new Post</strong></a>
+                    @endcan
                 </div>
 
                 <div class="d-flex">
