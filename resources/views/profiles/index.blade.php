@@ -7,8 +7,12 @@
                 <img class="rounded-circle img-thumbnail" src="/storage/{{$user->profile->image}}">
             </div>
             <div class="col-9 pl-5 pb-5">
-                <div class="d-flex justify-content-between align-items-baseline">
-                    <h1>{{$user->username}}</h1>
+                <div class="d-flex justify-content-between align-items-baseline pb-2">
+                    <div class="d-flex align-items-center">
+                        <div class="h1">{{$user->username}}</div>
+                        <follow-button user-id="{{$user->id}}" follows="{{$follows}}"></follow-button>
+                    </div>
+
                     @can('update', $user->profile)
                         <a href="/p/create"><strong>Create new Post</strong></a>
                     @endcan
