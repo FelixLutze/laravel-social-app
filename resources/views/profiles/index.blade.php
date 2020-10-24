@@ -32,13 +32,13 @@
             </div>
         </div>
 
-        <hr>
+        <hr class="m-0">
 
         <div class="row pt-3">
             @foreach($user->posts as $post)
                 <div class="col-4 p-3">
                     <a href="/p/{{$post->id}}">
-                        <img class="w-100" src="/storage/{{$post->image}}">
+                        <img class="w-100" style="object-fit: cover; height: 320px" src="/storage/{{$post->image}}">
                     </a>
                 </div>
             @endforeach
