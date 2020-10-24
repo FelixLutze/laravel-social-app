@@ -9,7 +9,7 @@
                     <img class="rounded-circle w-100" style="max-width: 45px" src="/storage/{{$post->user->profile->image}}">
                 </div>
                 <div>
-                    <h5 class="font-weight-bold" style="font-size: 12pt">
+                    <h5 class="font-weight-bold m-0" style="font-size: 12pt">
                         <a href="/profile/{{$post->user->id}}">
                             <span class="text-dark">{{$post->user->username}}</span>
                         </a>

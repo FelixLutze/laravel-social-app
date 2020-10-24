@@ -24,6 +24,10 @@
 
                 <hr>
 
+                <div>
+                    <p> Created at: {{$post->created_at}}</p>
+                </div>
+
                 <p>
                     <span class="font-weight-bold">
                         <a href="/profile/{{$post->user->id}}">
