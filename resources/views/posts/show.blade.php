@@ -12,13 +12,13 @@
                     <div class="pr-3">
                         <img class="rounded-circle w-100" style="max-width: 70px" src="/storage/{{$post->user->profile->image}}">
                     </div>
-                    <div>
-                        <h5 class="font-weight-bold" style="font-size: 15pt">
+                    <div class="d-flex align-items-center">
+                        <h5 class="font-weight-bold m-0" style="font-size: 15pt">
                             <a href="/profile/{{$post->user->id}}">
                                 <span class="text-dark">{{$post->user->username}}</span>
                             </a>
-                            <a href="#" class="pl-3">Follow</a>
                         </h5>
+                        <follow-button user-id="{{$post->user->id}}" follows="{{$follows}}"></follow-button>
                     </div>
                 </div>
 
